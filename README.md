@@ -1,4 +1,5 @@
 # TestVagrantAssigment
+Test1
 Number of songs to be played
 3
 Enter the the next songs to be Played
@@ -15,8 +16,8 @@ Recently played songs for User at the last:
 s4
 s3
 s2
-#2
 
+Test2
 Number of songs to be played
 3
 Enter the songs to be Played

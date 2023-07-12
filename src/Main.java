@@ -24,7 +24,7 @@ public class Main {
         for (Song song : recentlyPlayedSongsStart) {
             System.out.println(song.getName());
         }
-        System.out.println("Enter the next songs to be Played");
+        System.out.println("Enter the next songs to be Played:");
         String sn=scan.next();
         Song song4 = new Song(sn);
         store.addSong(user, song4);

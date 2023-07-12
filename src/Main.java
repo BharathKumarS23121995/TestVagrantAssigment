@@ -10,7 +10,7 @@ public class Main {
 
         User user = new User("Bharath");
 //
-        System.out.println("Enter the the next songs to be Played");
+        System.out.println("Enter the songs to be Played");
 
         for (int i=0;i<cap;i++) {
             String S1=scan.next();
@@ -20,7 +20,7 @@ public class Main {
         }
 // to show initial songs in the recently played list
         List<Song> recentlyPlayedSongsStart = store.getRecentlyPlayedSongs(user);
-        System.out.println("Recently played songs for User in the beging:");
+        System.out.println("Recently played songs for User in the beginning:");
         for (Song song : recentlyPlayedSongsStart) {
             System.out.println(song.getName());
         }
